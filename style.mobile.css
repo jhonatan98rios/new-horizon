@@ -1,0 +1,111 @@
+
+@media (max-width: 600px) {
+	
+	#parallax{
+		width: 100%;
+		top: 0;
+		height: 650px;
+		position: fixed;
+		z-index: -1000;
+		background-size: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-image: url('imagem/backgroundResp.jpg');
+		overflow: hidden;
+	}
+	
+	.bg_video{
+		display: none;
+	}
+	
+	header{
+		padding-top: 220px;
+	}
+	
+	header h1{
+		width: 90%;
+	}
+	
+	#sobreBox p{
+		width: 90%;
+	}
+	
+	.galeriaBox{
+		height: 770px;
+	}
+	
+	#galeria-master{
+		height: 770px;
+	}
+
+	.galeriaBox h2{
+		margin-top: 100px;
+	}
+	
+	#gitBox{
+		height: 500px;
+		padding-top: 180px;
+	}
+	
+	#gitBox h3{
+		width: 80%;
+	}
+	
+	#formulario{
+		height: 550px;
+		width: 100%;
+		padding-top: 80px;
+		border-radius: 0;
+	}
+	
+	form{
+		width: 85%;
+		height: 400px;
+		text-align: center;
+		padding-top: 20px;
+	}
+	
+	form input{
+		width: 92%;
+		height: 40px;
+		border-radius: 5px;
+		margin: 10px 0;
+		padding: 0px 10px;
+		font-size: 18px;
+	}
+	
+	form textarea{
+		width: 92%;
+		height: 180px;
+		padding: 5px 10px;
+		margin: 10px 0;
+		font-size: 18px;
+	}
+	
+	form #enviar{
+		width: 150px;
+		height: 50px;
+		margin-top: 10px;
+		font-size: 18px;
+	}
+	
+	form a{
+		margin-top: 100px;
+	}
+	
+	footer{
+		height: 150px;
+		padding-top: 20px;
+		
+	}
+	
+	#redes img{
+		margin-top: 10px;
+	}
+	
+	footer h3{
+		margin-top: 20px;
+	}
+}
+
+

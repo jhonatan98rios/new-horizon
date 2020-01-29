@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title> New Horizon - Web Design </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="style.css"> 	<!-- index -->
+	<link rel="stylesheet" type="text/css" href="style.min.css"> <!-- menu e footer -->
+	<link rel="stylesheet" type="text/css" href="style.mobile.css"> <!-- responsivo principal -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+	<script src='js/jquery-3.3.1.min.js'></script>
+</head>
+<body>
+	
+	<div id="contador"></div>
+	
+	<div id="parallax">
+		<div class="bg_video"></div>
+	</div>
+	
+	<header> <h1 id="titulo"> Expanda seus Horizontes</h1> </header>
+	
+	<nav id="topBar">
+		<div id="btn_menu_closed" class="btn_menu"> = </div>
+		<div id="btn_menu_opened" class="btn_menu"> x </div>
+	</nav>
+	
+	<div id="menu">
+		<ul id="mn">
+			<li id="menuInicio"> <a> Inicio </a>  </li>
+			<li id="menuSobre"> <a> Sobre </a> </li>
+			<li id="menuGaleria"> <a> Portifólio </a> </li>
+			<li id="menuContato"> <a> Contato </a> </li>
+		</ul>
+	</div>
+	
+	<div id="bg_menu"></div>
+	
+	<section id="sobre">
+		<div id="sobreBox">
+			<div id="sobreImage"> </div>
+			<h2> Jhonatan Rios </h2>
+			<p> Designer por formação. Entusiasta por diversão. Programador por paixão. 
+				Acredito que não exista estagnação na área da tecnologia. Ou você evolui, ou é ultrapassado. 
+				Tendo como base esse princípio, assumi o compromisso de dedicar 100% de mim a meus estudos e projetos.
+				Desenvolvimento é mais que uma profissão, é uma forma de viver e enxergar o mundo através de sua lógica.
+			</p>
+		</div>
+	</section>
+	
+	<div id="suporteGaleria"></div>
+	
+	<section id="galeria-master">
+		
+		<div id="galeria1" class="galeriaBox">
+			<h2> O poder de criar está nas pontas de nossos dedos. A tecnologia nos permite chegar aonde jamais alguém chegou e o nosso limite, é a nossa imaginação. </h2>
+			<a href="web.html"> <button> <h3> Development </h3> </button> </a>
+		</div>
+		<div id="galeria2" class="galeriaBox">
+			<h2> Design é muito mais que aparência. Design é tudo que ganha forma da melhor forma, e assim, ganha significado. </h2>
+			<a href="graphic.html"> <button> <h3> Graphic Designer </h3> </button> </a>
+		</div>
+		<div id="galeria3" class="galeriaBox">
+			<h2> Uma imagem vale mais que mil palavras, e com elas, em poucos segundos, contamos uma linda história.   </h2>
+			<a href="videos.html"> <button> <h3> Motion Designer </h3> </button> </a>
+		</div>
+		
+	</section>
+	
+	<div id="controle-galeria">
+		<input id="g1" type="radio" name="galeria">
+		<input id="g2" type="radio" name="galeria" checked="">
+		<input id="g3" type="radio" name="galeria">
+	</div>
+	
+	<section id="gitBox">
+		<h2> Compartilhar o conhecimento e a experiência, nos ajuda a ir mais longe. </h2> <br> <h3>Acesse aqui o código de meus principais projetos. </h3>
+		
+		<a href="https://github.com/jhonatan98rios" target='_blank'> <button> <h3> GitHub </h3>  </button> </a>
+	</section>
+	
+	<section id="contato">
+		<div id="formulario"> <h3> Entre em contato </h3>
+			<form id="mensagem" method="get" action="envio.php">
+				<input type="text" name="nome" placeholder="Nome" required> <br>
+				<input type="email" name="email" placeholder="Email" required> <br>
+				<input type="number" name="fone" placeholder="Telefone" required> <br>
+				<textarea name="msg" placeholder="Mensagem" required></textarea>
+				<br>
+				<input type="submit" id="enviar" name="enviar" value='Confirmar'>
+			</form>
+		</div>
+	</section>
+	
+	<footer>
+		<div id="redes">
+			<a href="https://www.facebook.com/jhonatan.maiarios.94" target="_blank"> <img src="imagem/icon/facebook.png"> </a>
+			<a href="https://www.instagram.com/jhonatan.maia.rios/" target="_blank"> <img src="imagem/icon/instagram.png"> </a>
+			<a href="https://www.youtube.com/channel/UCO0Wn-Pd5Y5ELJ7Nrl2SVLQ" target="_blank"> <img src="imagem/icon/youtube.png"> 
+			<a href="mailto:jhonatan98rios@gmail.com" target="_blank"> <img src="imagem/icon/gmail.png"> </a>	
+		</div>
+			
+		<h3> Powered By Jhonatan Rios </h3>
+			
+	</footer>
+		
+	</body>
+	<script src="js/script.js"></script>
+	<script src="js/script.index.js"></script>
+	
+	</html>
+	
